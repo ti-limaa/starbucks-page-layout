@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #101218;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  width: auto;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+}
+
+.header_text {
+  display: flex;
+  margin-right: 15px;
+  margin-top: 13px;
+}
+
+.header_text p {
+  color: white;
+  font-size: 13px;
+}
+#quadrado {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 3px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+
+#quadrado:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+#perfil {
+  width: 40px;
+  height: 40px;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+
+#perfil:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+#imagens {
+  margin-left: 15px;
+}
+
+.texts_hd {
+  margin-top: 10px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.texts_hd a {
+  text-decoration: none;
+  color: white;
+}
+
+.texts_hd a:hover {
+  text-decoration: underline;
+}
+
+.header_text a {
+  text-decoration: none;
+}
+
+article {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_article {
+  margin-bottom: 400px;
+}
+
+.img_google {
+  margin-top: 160px;
+  margin-left: 160px;
+}
+
+.barra_pesquisa {
+  position: relative; /* Permite que os ícones fiquem posicionados corretamente */
+  display: flex;
+  align-items: center;
+  border-radius: 80px;
+  width: 600px;
+  height: 50px;
+  background-color: #3f4454;
+  margin-top: 20px;
+  padding: 0 15px; /* Adiciona um espaçamento interno */
+  cursor: pointer;
+}
+
+.barra_pesquisa:hover {
+  background-color: #4d5160;
+  cursor: text;
+}
+
+.luneta img {
+  width: 25px;
+  height: 25px;
+  filter: invert(70%);
+}
+
+.img_pesquisa {
+  position: absolute;
+  right: 15px; /* Mantém os ícones no lado direito */
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espaçamento entre os ícones */
+}
+
+.img_pesquisa img {
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+
+#cam {
+  width: 30px;
+  height: 30px;
+}
+
+#teclado {
+  width: 24px;
+  height: 24px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.botao button {
+  border-radius: 3px;
+  width: 140px;
+  padding: 9px;
+  background-color: #3f4454;
+  color: white;
+  font-size: 14px;
+}
+
+button {
+  background: none; /* Remove o fundo */
+  border: none; /* Remove a borda */
+  outline: none; /* Remove o contorno ao clicar */
+  padding: 0; /* Remove o padding padrão */
+  cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse */
+}
+
+.botao button:hover {
+  border: 1px solid gray;
+}
+
+html,
+body {
+  height: 100%; /* Garante que o body ocupe toda a altura da tela */
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex: 1; /* Faz com que o conteúdo principal ocupe o espaço disponível */
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #1f2128;
+  padding: 10px 0;
+}
+
+.brasil {
+  color: white;
+  margin-top: 8px;
+  margin-left: 26px;
+  font-size: 15px;
+}
+
+.bar {
+  margin-top: 15px;
+  border: 1px solid #2a2c35;
+}
+
+.text_2 {
+  color: white;
+  margin-top: 13px;
+  margin-left: 28px;
+  display: flex;
+  gap: 25px;
+  font-size: 15px;
+}
+
+.text3 {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1140px;
+  gap: 25px;
+}
