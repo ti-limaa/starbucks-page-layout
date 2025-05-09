@@ -12,7 +12,7 @@ Projeto de landing page inspirado no site da Starbucks, desenvolvido como parte 
 
 - HTML5
 - CSS3
-- Google Font
+- Google Fonts
 
 
 ---
