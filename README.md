@@ -3,7 +3,7 @@
 Projeto de landing page inspirado no site da Starbucks, desenvolvido como parte dos exercícios do curso da **B7Web**, com aprimoramentos próprios para praticar **CSS Grid**, **Flexbox** e **responsividade**.
 
 <div align="center">
-  <img src="starbucks.png" width="200" alt="Preview do projeto"/>
+  <img src="starbucks.png"  alt="Preview do projeto"/>
 </div>
 
 ---
